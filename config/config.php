@@ -25,7 +25,7 @@ function logApiAccess($country) {
     $sql = "INSERT INTO acessos_api (country, access_time) VALUES ('$country', '$access_time')";
     
     if ($conn->query($sql) === TRUE) {
-        // Não é necessário imprimir nada aqui
+        
     } else {
         echo "Erro ao inserir registro de acesso: " . $conn->error;
     }

@@ -1,3 +1,4 @@
+// Responsável por obter estatísticas de um país selecionado pelo usuário.
 function getCountryStats() {
     var country = document.getElementById('country').value;
 
@@ -17,7 +18,7 @@ function getCountryStats() {
 }
 
 
-
+// Esta função é responsável por exibir estatísticas sobre casos confirmados e mortes relacionadas ao COVID-19.
 function displayStats(data) {
     var statsBody = document.getElementById('statsBody');
     statsBody.innerHTML = '';
@@ -48,6 +49,7 @@ function displayStats(data) {
      var currentDate = new Date().toLocaleString();
      lastAccessInfo.textContent = `Último acesso à API para o País: ${countryName}: ${currentDate}.`;
 
+    // Exibir os dados de forma paginada e controlar a navegação entre as páginas.
     function showPage(page) {
         statsBody.innerHTML = '';
         var start = page * pageSize;
