@@ -2,7 +2,7 @@ function getCountryStats() {
     var country = document.getElementById('country').value;
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '../../config/app.php?country=' + country, true);
+    xhr.open('GET', './config/app.php?country=' + country, true);
 
     xhr.onload = function() {
         if (xhr.status == 200) {

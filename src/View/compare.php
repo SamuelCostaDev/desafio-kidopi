@@ -14,7 +14,7 @@
                 <span>Estatísticas COVID-19</span>
             </div>
             <ul>
-                <li><a href="./index.php">Estatísticas</a></li>
+                <li><a href="../../index.php">Estatísticas</a></li>
                 <li><a href="./compare.php">Compare</a></li>
             </ul>
         </nav>

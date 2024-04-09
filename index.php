@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVID-19 Stats</title>
-    <link rel="stylesheet" href="../../public/assets/css/styles.css">
+    <link rel="stylesheet" href="public/assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <header>
@@ -15,7 +15,7 @@
             </div>
             <ul>
                 <li><a href="./index.php">Estatísticas</a></li>
-                <li><a href="./compare.php">Compare</a></li>
+                <li><a href="../desafio-kidopi/src/View/compare.php">Compare</a></li>
             </ul>
         </nav>
     </div>
@@ -79,7 +79,7 @@
     <footer>
         <p id="lastAccessInfo">Último Acesso: N/A</p>
     </footer>
-    <script src="../../public/assets/js/index.js"></script>
+    <script src="public/assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
