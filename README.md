@@ -54,4 +54,4 @@ https://github.com/SamuelCostaDev/desafio-kidopi/assets/118944536/46d8f953-2703-
 ## FEITO TUDO ISSO.. HORA DE TESTAR!!
 
 1. Start seu servidor apache
-2. acesse http://localhost/desafio-kidopi e seja feliz para testar.
+2. acesse http://localhost/nome-da-pasta-que-foi-extraida e seja feliz para testar.
