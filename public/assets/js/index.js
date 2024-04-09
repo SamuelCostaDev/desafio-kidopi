@@ -58,8 +58,8 @@ function displayStats(data) {
             row.innerHTML = `
                 <td>${entry.ProvinciaEstado}</td>
                 <td>${entry.Pais}</td>
-                <td>${entry.Confirmados}</td>
-                <td>${entry.Mortos}</td>
+                <td>${entry.Confirmados.toLocaleString('pt-BR')}</td>
+                <td>${entry.Mortos.toLocaleString('pt-BR')}</td>
             `;
             statsBody.appendChild(row);
         });
